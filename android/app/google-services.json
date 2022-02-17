@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1057799811513",
+    "project_id": "percobaan-ta-1",
+    "storage_bucket": "percobaan-ta-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057799811513:android:763c1a1220de0f502c4668",
+        "android_client_info": {
+          "package_name": "com.example.percobaan_tugas_akhir_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057799811513-8tj4sfbmgtb7uevrggmgi4uraeone0g5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.percobaan_tugas_akhir_1",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1057799811513-5t83nelckabjrnnqjpd99f41cfjd3tc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQJFrYTniEU2bfUpbWIG5q7DjtuT1vdxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057799811513-5t83nelckabjrnnqjpd99f41cfjd3tc6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1057799811513-gjkvp1til655qougo446pepmtt255csa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.coba"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057799811513:android:6f5760ce9e5c7ab42c4668",
+        "android_client_info": {
+          "package_name": "com.flutterflow.coba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057799811513-p0bm48eu0787qlku9m1k50025a7aj8d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutterflow.coba",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1057799811513-5t83nelckabjrnnqjpd99f41cfjd3tc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQJFrYTniEU2bfUpbWIG5q7DjtuT1vdxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057799811513-5t83nelckabjrnnqjpd99f41cfjd3tc6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1057799811513-gjkvp1til655qougo446pepmtt255csa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.coba"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
