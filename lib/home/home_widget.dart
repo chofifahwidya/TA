@@ -36,10 +36,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                   child: Image.network(
-                    valueOrDefault<String>(
-                      uploadedFileUrl,
-                      'Cg5JbWFnZV92ZGNiM3pwNRgHIpEBMkAKImh0dHBzOi8vcGljc3VtLnBob3Rvcy9zZWVkLzc3OS82MDAQARgCIhYKCQkAAAAAAADwfxIJCQAAAAAAAHlAWgkhAAAAAAAAJECaAT4IBggBKjgIBxIPQnV0dG9uX2lzbDRya2IwGiMKGQoXVVBMT0FERURfTUVESUFfVkFSSUFCTEUQAzgDOAQ4CvoDAGIA',
-                    ),
+                    uploadedFileUrl,
                     width: double.infinity,
                     height: 400,
                     fit: BoxFit.contain,
