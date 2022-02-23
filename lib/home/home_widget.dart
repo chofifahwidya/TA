@@ -5,6 +5,7 @@ import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
 import '../flutter_flow/upload_media.dart';
 import '../sign_in_page/sign_in_page_widget.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -35,8 +36,11 @@ class _HomeWidgetState extends State<HomeWidget> {
               children: [
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
-                  child: Image.network(
-                    uploadedFileUrl,
+                  child: CachedNetworkImage(
+                    imageUrl: valueOrDefault<String>(
+                      uploadedFileUrl,
+                      'Cg5JbWFnZV92ZGNiM3pwNRgHIpYDMkAKImh0dHBzOi8vcGljc3VtLnBob3Rvcy9zZWVkLzc3OS82MDAQARgCIhYKCQkAAAAAAADwfxIJCQAAAAAAAHlAWgkhAAAAAAAAJECaAb8CCAYIASq4AggHEg9CdXR0b25faXNsNHJrYjAaIwoZChdVUExPQURFRF9NRURJQV9WQVJJQUJMRRADOAM4BDgKMv0BCAQS+AFDZzlDZFhSMGIyNWZhWE5zTkhKcllqQVlDU0orU21zS0dBb01WR0ZyWlNCUWFXTjBkWEpsT2dZSS8vLy8vdzlBQlJJakNpRUl6OEFERWcxTllYUmxjbWxoYkVsamIyNXpJQUF5Q21Ga1pGOWphWEpqYkdVcEFBQUFBQUFBYVVBeEFBQUFBQUFBUkVBNUFBQUFBQUFBS0VCSkFBQUFBQUFBOEQ5U0FoQUJXZ0lJQUZvSklRQUFBQUFBQUZsQWlBTUMrZ01BT2c1Q2RYUjBiMjVmVUdsamRIVnlaVUlUQ0FGQ0RCZ0RJZ2dTQWhBREdnSVFBYUlCQUdJQYgDAvoDAGIA',
+                    ),
                     width: double.infinity,
                     height: 400,
                     fit: BoxFit.contain,
